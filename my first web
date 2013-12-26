@@ -2,10 +2,13 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8" />
+	<meta name="viweport"
+		content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<title>Puls3: Comunidad online de gente pro y (no sé que mas escribir)</title>
 	<link rel="stylesheet" href="normalize.css" />
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="estilos.css" />
+	<link rel="stylesheet" href="responsive.css" />
 </head>
 <body>
 	<!-- comentario de lo que sea-->
@@ -30,7 +33,101 @@
 			<li id="publicar_nav"><a href="#">Publicar</a></li>
 		</ul>
 	</nav>
+	<aside id="bienvenida">
+		<h2>Hola, Registrate </h2>
+		<p>Es importante registrarte porque LOL!</p>
+		<a id="registro" href="#">Registrate aca</a>
+		<p id="mensaje_registro">En serio, registrate por favor</p>
+	</aside>
 	<section id="contenido">
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg" / >
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">Módulo de usuarios (VII): Eliminar un registro con Laravel</a>
+			</h2>
+			<p class="autor_item">
+				Por <a href="#">Freddy Vega</a>
+			</p>
+			<p class='datos_item'>
+				<a class="tag_item" href="#">Categoria</a>
+				<span class="fecha_item">Hace <strong>5</strong> min </span>
+				<a class="comentarios_item" href="#">455</a>
+				<a class="guardar_item" href="#"></a>
+			</p>
+			<p class="votacion">
+				<a class="up" href="#"></a>
+				3141
+				<a class="down" href="#"></a>
+			</p>
+		</article>
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg" / >
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">Módulo de usuarios (VII): Eliminar un registro con Laravel</a>
+			</h2>
+			<p class="autor_item">
+				Por <a href="#">Freddy Vega</a>
+			</p>
+			<p class='datos_item'>
+				<a class="tag_item" href="#">Categoria</a>
+				<span class="fecha_item">Hace <strong>5</strong> min </span>
+				<a class="comentarios_item" href="#">455</a>
+				<a class="guardar_item" href="#"></a>
+			</p>
+			<p class="votacion">
+				<a class="up" href="#"></a>
+				3141
+				<a class="down" href="#"></a>
+			</p>
+		</article>
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg" / >
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">Módulo de usuarios (VII): Eliminar un registro con Laravel</a>
+			</h2>
+			<p class="autor_item">
+				Por <a href="#">Freddy Vega</a>
+			</p>
+			<p class='datos_item'>
+				<a class="tag_item" href="#">Categoria</a>
+				<span class="fecha_item">Hace <strong>5</strong> min </span>
+				<a class="comentarios_item" href="#">455</a>
+				<a class="guardar_item" href="#"></a>
+			</p>
+			<p class="votacion">
+				<a class="up" href="#"></a>
+				3141
+				<a class="down" href="#"></a>
+			</p>
+		</article>
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg" / >
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">Módulo de usuarios (VII): Eliminar un registro con Laravel</a>
+			</h2>
+			<p class="autor_item">
+				Por <a href="#">Freddy Vega</a>
+			</p>
+			<p class='datos_item'>
+				<a class="tag_item" href="#">Categoria</a>
+				<span class="fecha_item">Hace <strong>5</strong> min </span>
+				<a class="comentarios_item" href="#">455</a>
+				<a class="guardar_item" href="#"></a>
+			</p>
+			<p class="votacion">
+				<a class="up" href="#"></a>
+				3141
+				<a class="down" href="#"></a>
+			</p>
+		</article>
 		<article class="item">
 			<figure class="imagen_item">
 				<img src="imagen.jpg" / >
@@ -56,7 +153,7 @@
 	</section>
 	<footer>
 		<p><strong>Powered by Platzi!</strong></p>
-		<p>Meejorando.la 2013</p>
+		<p>Mejorando.la 2013</p>
 	</footer>
 </body>
 </html>
