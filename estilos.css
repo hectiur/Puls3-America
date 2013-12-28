@@ -41,23 +41,39 @@
  	margin: 0;
  	padding: 0.5em;
  }
- header figure,header h1
+ header:after
  {
- 	display: inline-block;
- 	vertical-align: top
+ 	clear: both;
+ 	content:"";
+ 	display: block;
  }	
+ header figure
+ {
+ 	float: left;
+
+ }
  header h1
  {
  	font-size: 20px;
  	font-weight: normal;
- 	margin: 1em 0 0 1rem;
- 	width: 60%;
+ 	margin: 1em 85px 1em 100px;
+ 	display: block;
  }
   header #avatar
-  {
+  { 
+  	position: relative;
   	float: right;
-  	margin: 1em 1em 0 0;
+  	right:0;
+  	top:0;
+  	border-top: 0em;  	
   }
+  header #avatar:after
+   {
+   	position:relative;
+	right: 0;
+  	top: 0;
+  		
+   }
   header #avatar figcaption
   {
   	background: #22BCE0;
@@ -75,7 +91,7 @@
 
   header #avatar img
  {
-	float: left;
+	float: right;
  	width: 50px;
  }
  header #logo img
@@ -176,7 +192,18 @@
 	color: white;
 	margin: 0 0 0 2em;
 	padding: 4px;
+	position: relative;
 	text-decoration: none;
+}
+#contenido .item .datos_item .comentarios_item:after
+{
+	border-left: : 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #878787;
+	content:"";
+	left: 10px;
+	position: absolute;
+	top:100%;
 }
 #contenido .item .datos_item .guardar_item
 {
