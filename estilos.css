@@ -52,7 +52,8 @@
  	float: left;
 
  }
- header figure, header h1 {
+ header figure, header h1 
+ {
     display: inline-block;
     vertical-align: top;
 }
@@ -73,7 +74,7 @@ header #avatar figcaption {
     line-height: 50px;
 }
 header #avatar figcaption:after {
-    content: "";
+    content: "\e001";
     font-family: "icomoon";
     font-size: 0.7em;
 }
@@ -83,6 +84,11 @@ header #avatar img {
 }
 header #logo img {
     width: 80px;
+}
+nav
+{
+	background: #878787;
+	font-size: 0.9em;
 }
  nav ul
  {
